@@ -1,0 +1,79 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #ddd;
+    border: 2px dashed #999;
+}
+
+.positioning-box {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #333;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.corner-text {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.top-left {
+    top: 5px;
+    left: 5px;
+}
+
+.top-right {
+    top: 5px;
+    right: 5px;
+}
+
+.bottom-left {
+    bottom: 5px;
+    left: 5px;
+}
+
+.bottom-right {
+    bottom: 5px;
+    right: 5px;
+}
+
+.center-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    width: max-content;
+}</style>
